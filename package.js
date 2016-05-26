@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Login service for Slack accounts",
   version: "0.0.1",
-  git: "https://github.com/krishamoud/meteor-accounts-slack.git",
-  name: "khamoud:accounts-slack",
+  git: "git@github.com:emmerge/meteor-accounts-slack-1.git",
+  name: "emmerge:accounts-slack",
   documentation: 'README.md'
 });
 
@@ -33,6 +33,6 @@ Package.onUse(function(api) {
 
 
 Package.onTest(function(api) {
-  api.use(['khamoud:accounts-slack', 'tinytest', 'test-helpers'], ['client', 'server']);
+  api.use(['emmerge:accounts-slack', 'tinytest', 'test-helpers'], ['client', 'server']);
   api.add_files('accounts-slack-tests.js', ['client', 'server']);
 });
