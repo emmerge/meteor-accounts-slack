@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Login service for Slack accounts",
-  version: "0.0.1",
-  git: "git@github.com:emmerge/meteor-accounts-slack-1.git",
+  version: "0.0.1_2",
+  git: "git@github.com:emmerge/meteor-accounts-slack.git",
   name: "emmerge:accounts-slack",
   documentation: 'README.md'
 });
